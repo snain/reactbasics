@@ -1,7 +1,8 @@
 import React from "react";
+import {useState} from "react-router-dom";
 
 function Third(){
-    const [number,setNumber]= React.useState(10);
+    const [number,setNumber]= useState(10);
     return(
         <>
         <p>{number}</p>
